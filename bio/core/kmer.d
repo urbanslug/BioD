@@ -6,6 +6,7 @@ import std.range;
 /// Represents k-mer of ACGT bases of length no more than 32.
 struct KMer(uint K) 
     if (K <= 32)
+      
 {
     private ulong _id;
 
